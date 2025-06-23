@@ -18,16 +18,16 @@ export default function LandingHero() {
   {/* Text Left Side */}
   <div className="w-full md:w-1/2 p-10 z-10 text-center md:text-left">
     <motion.h1
-      className="text-4xl md:text-5xl font-bold leading-tight mb-3 py-26"
+      className="text-3xl md:text-3xl font-bold leading-tight mb-3 py-24"
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1.2 }}
     >
-      A Clear Way of Becoming Ethical Hacker<br />
-      <span className="text-green-300">100% Free of Charge</span> Practical Hacking
+    ⚡ Launch Your Ethical Hacking Career with Confidence<br />
+      <span className="text-green-300 text-1xl">🎯 100% Free, Hands-On Cybersecurity Training</span> No Fluff, Just Real Skills
     </motion.h1>
     <motion.a
-      className="inline-block mt-6 px-8 py-3 bg-green-400 text-black font-bold rounded-full hover:bg-green-300 transition-all shadow-md"
+      className="inline-block mt-6 px-7 py-4 bg-green-400 text-black font-bold rounded-full hover:bg-green-300 transition-all shadow-md"
       whileHover={{ scale: 1.1 }}
     >
     <Link to="/login">
