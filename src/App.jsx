@@ -19,9 +19,11 @@ import TutorialDetailPage from './components/TutorialDetailPage'
 import ContactPage from './components/Contact'
 import StudentListPage from './components/Streaming/LiveStudentList'
 import  NotFoundPage from './components/NotFound'
+import {BrowserRouter} from 'react-router-dom'
+
 export default function AppRouter() {
   return (
-    
+   // <BrowserRouter basename="/Hacksphere">    
     <Routes>
       <Route path="/" element={<LandingHero />} />
       <Route path="/register" element={<RegisterPage />} />
@@ -103,6 +105,8 @@ export default function AppRouter() {
      
       
     </Routes>
+
+  //</BrowserRouter>
     
   );                        
 }
